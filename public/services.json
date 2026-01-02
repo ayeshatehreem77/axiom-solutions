@@ -1,0 +1,178 @@
+{
+  "web-development": {
+    "title": "Web Development",
+    "subtitle": "Reliable, scalable web systems",
+    "description": "We design and develop custom websites and web-based systems tailored to business and engineering use cases.",
+    "sub_services": "What We Deliver",
+    "services": [
+      {
+        "category": "Development",
+        "category_description": "High-quality web solutions built for performance and scalability.",
+        "items": [
+          "Custom website development (no templates unless requested)",
+          "High-performance, responsive web applications",
+          "Technical dashboards and internal systems",
+          "API integrations and database-backed systems",
+          "Ongoing maintenance and performance optimization"
+        ]
+      }
+    ],
+    "tools_title": "Technologies",
+    "tools": [
+      { "title": "HTML", "logo": "/Assets/tools/html.svg" },
+      { "title": "CSS", "logo": "/Assets/tools/css.svg" },
+      { "title": "JavaScript", "logo": "/Assets/tools/javascript.svg" },
+      { "title": "React", "logo": "/Assets/tools/react.svg" },
+      { "title": "Next.js", "logo": "/Assets/tools/nextjs.svg" }
+    ],
+    "why_us": [
+      "Best suited for startups and engineering firms",
+      "Scalable and maintainable architecture",
+      "Performance-focused development approach"
+    ],
+    "cta": {
+      "title": "Build a reliable web platform",
+      "description": "Get a scalable, high-performance web solution tailored to your business needs.",
+      "note": "Best for startups, engineering firms, and growing businesses."
+    }
+  },
+
+  "ai-ml": {
+    "title": "Artificial Intelligence & Machine Learning",
+    "subtitle": "Engineering-driven AI solutions",
+    "description": "We develop AI and ML solutions grounded in engineering logic and measurable performance.",
+    "sub_services": "What We Deliver",
+    "services": [
+      {
+        "category": "AI / ML Solutions",
+        "category_description": "Validated models designed for real-world applications.",
+        "items": [
+          "Computer vision systems (detection, classification, inspection)",
+          "Predictive modeling and forecasting",
+          "Optimization and decision-support models",
+          "Custom ML pipelines with validation metrics"
+        ]
+      }
+    ],
+    "tools_title": "Tools & Frameworks",
+    "tools": [
+      { "title": "Python", "logo": "/Assets/tools/python.svg" },
+      { "title": "OpenCV", "logo": "/Assets/tools/opencv.svg" },
+      { "title": "TensorFlow", "logo": "/Assets/tools/tensorflow.svg" },
+      { "title": "PyTorch", "logo": "/Assets/tools/pytorch.svg" }
+    ],
+    "why_us": [
+      "Engineering-validated AI models",
+      "Performance and accuracy focused",
+      "Suitable for industrial and research use"
+    ],
+    "cta": {
+      "title": "Build intelligent systems",
+      "description": "Apply AI and ML where performance and validation truly matter.",
+      "note": "Best for automation and data-driven systems."
+    }
+  },
+
+  "game-development": {
+    "title": "Game & App Development",
+    "subtitle": "High-performance interactive systems",
+    "description": "Turn your concept into a playable, scalable, and optimized digital experience.",
+    "sub_services": "Core Capabilities",
+    "services": [
+      {
+        "category": "Gameplay & Systems",
+        "items": [
+          "Character controllers and combat systems",
+          "Inventory systems, skill trees, quests, and dialogues",
+          "AI behavior, pathfinding, FSM, and boss logic"
+        ]
+      },
+      {
+        "category": "UI / UX",
+        "items": [
+          "Menus, HUDs, settings, and interactive widgets",
+          "Custom or integrated UI assets"
+        ]
+      },
+      {
+        "category": "Multiplayer & Optimization",
+        "items": [
+          "Server-client synchronization",
+          "Lobby systems and matchmaking",
+          "Performance optimization and bug fixing"
+        ]
+      }
+    ],
+    "why_us": [
+      "Clean, maintainable game architecture",
+      "Performance-first development",
+      "Industry-standard practices"
+    ],
+    "cta": {
+      "title": "Develop interactive experiences",
+      "description": "From games to scalable apps, we build systems that perform.",
+      "note": "Best for startups and interactive platforms."
+    }
+  },
+
+  "cad-design": {
+    "title": "CAD Design",
+    "subtitle": "Engineering-grade CAD solutions",
+    "description": "We provide CAD design services focused on manufacturability and functionality.",
+    "sub_services": "What We Deliver",
+    "services": [
+      {
+        "category": "CAD Services",
+        "items": [
+          "Part and assembly modeling",
+          "Mechanical system layouts",
+          "Motion and interference analysis",
+          "Design optimization for manufacturing"
+        ]
+      }
+    ],
+    "tools_title": "Tools",
+    "tools": [
+      { "title": "SolidWorks", "logo": "/Assets/tools/solidworks.svg" }
+    ],
+    "why_us": [
+      "Manufacturing-focused design",
+      "Accurate engineering models",
+      "Production-ready outputs"
+    ],
+    "cta": {
+      "title": "Design with precision",
+      "description": "Get CAD designs ready for validation and manufacturing.",
+      "note": "Best for product development and prototyping."
+    }
+  },
+
+  "research-modeling": {
+    "title": "Research Modeling & Simulation",
+    "subtitle": "Validated research-grade simulations",
+    "description": "We specialize in modeling and simulation for academic and industrial research.",
+    "sub_services": "What We Deliver",
+    "services": [
+      {
+        "category": "Modeling & Simulation",
+        "items": [
+          "MATLAB & Simulink models",
+          "Control system simulations",
+          "Physics-based modeling with Simscape",
+          "Robotics modeling and analysis",
+          "Reproducible, well-documented simulations"
+        ]
+      }
+    ],
+    "why_us": [
+      "Clear assumptions and validated results",
+      "Publication-ready outputs",
+      "Ideal for research and R&D teams"
+    ],
+    "cta": {
+      "title": "Advance your research",
+      "description": "Get accurate, documented simulations for research and validation.",
+      "note": "Best for MS/PhD research and R&D teams."
+    }
+  }
+}

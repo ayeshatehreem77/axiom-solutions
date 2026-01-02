@@ -1,0 +1,230 @@
+{
+  "case_studies": [
+    {
+      "id": 1,
+      "modal_title": "Catch-All Campaign Success",
+      "sections": [
+        {
+          "heading": "Increased Conversions and Sales Volume",
+          "content": "By structuring a campaign to capture broad search terms and refining targeting over time, the client experienced a noticeable increase in conversions. This strategy ensured that every relevant search opportunity was leveraged, leading to higher sales volume."
+        },
+        {
+          "heading": "Improved ROI Through Data-Driven Bidding",
+          "content": "Continuous monitoring and bid optimization based on keyword performance allowed us to eliminate underperforming placements. By reallocating spend to high-converting areas, the campaign delivered stronger returns on investment."
+        },
+        {
+          "heading": "Reduced ACOS for Better Cost Efficiency",
+          "content": "We applied negative keyword sculpting and refined bid strategies to cut down wasted clicks. This reduced ACOS significantly, ensuring ad spend was used efficiently and profitably."
+        },
+        {
+          "heading": "Expanded Keyword Reach",
+          "content": "Testing new keywords and match types allowed the campaign to target broader audiences. This expanded reach captured additional sales opportunities that were previously untapped."
+        },
+        {
+          "heading": "Strengthened Brand Presence",
+          "content": "With increased visibility across relevant search terms, the brand established a more dominant presence on Amazon. This consistency reinforced customer trust and recognition."
+        }
+      ],
+      "images": [
+        { "url": "Assets/case1-1.png", "caption": "Catch-All campaign setup" },
+        { "url": "Assets/case1-2.png", "caption": "Keyword performance dashboard" },
+        { "url": "Assets/case1-3.png", "caption": "Sales growth trend chart" }
+      ]
+    },
+    {
+      "id": 2,
+      "modal_title": "25% Conversion Rate in a Competitive Niche",
+      "sections": [
+        {
+          "heading": "Achieved 25% Conversion Rate Despite Competition",
+          "content": "Through meticulous optimization of listings and campaigns, we achieved a rare 25% conversion rate in one of Amazon’s most competitive niches."
+        },
+        {
+          "heading": "Improved ROI Through Continuous Optimization",
+          "content": "We used real-time data to make ongoing improvements, ensuring campaigns remained efficient and profitable even as competition intensified."
+        },
+        {
+          "heading": "Balanced ACOS While Scaling Spend",
+          "content": "The campaign scaled gradually, maintaining balanced ACOS. This ensured growth did not come at the expense of profitability."
+        },
+        {
+          "heading": "Strengthened Brand Presence",
+          "content": "The brand carved out authority in a saturated space, earning customer trust and higher organic visibility through strong PPC performance."
+        }
+      ],
+      "images": [
+        { "url": "Assets/case2-1.png", "caption": "Optimized product listings" }
+      ]
+    },
+    {
+      "id": 3,
+      "modal_title": "Driving Organic Growth with Amazon Posts",
+      "sections": [
+        {
+          "heading": "Increased Organic Impressions",
+          "content": "By publishing consistent Amazon Posts, the brand improved its organic visibility and reached new audiences without additional ad spend."
+        },
+        {
+          "heading": "Improved CTR with Engaging Visuals",
+          "content": "High-quality images and videos created engaging touchpoints that significantly improved click-through rates."
+        },
+        {
+          "heading": "Strengthened Brand Authority",
+          "content": "Regular posting established the brand as an active, trustworthy seller. This visibility reinforced recognition and credibility."
+        },
+        {
+          "heading": "Drove Incremental Sales Without Ads",
+          "content": "The posts generated traffic that converted into sales, reducing reliance on paid advertising and creating sustainable growth."
+        }
+      ],
+      "images": [
+        { "url": "Assets/case3-1.png", "caption": "Amazon Posts campaign visuals" }
+      ]
+    },
+    {
+      "id": 4,
+      "modal_title": "Boosting Sales with Amazon Brand Referral Bonus",
+      "sections": [
+        {
+          "heading": "Boosted External Traffic and Rankings",
+          "content": "By driving qualified external traffic through custom referral links, the brand improved search rankings and overall sales velocity."
+        },
+        {
+          "heading": "Gained Bonus Rewards Per Sale",
+          "content": "Amazon’s Brand Referral Bonus returned additional credits per sale, effectively increasing margins while scaling."
+        },
+        {
+          "heading": "Improved Profit Margins",
+          "content": "The added bonus incentives improved overall profitability, making campaigns more cost-effective and sustainable."
+        }
+      ],
+      "images": [
+        { "url": "Assets/case4-1.png", "caption": "Custom referral links setup" }
+      ]
+    },
+    {
+      "id": 5,
+      "modal_title": "Brand Store Creation",
+      "sections": [
+        {
+          "heading": "Engaging, Custom-Designed Layouts",
+          "content": "The brand store was designed with engaging visuals and navigation, tailored to reflect the brand’s unique identity."
+        },
+        {
+          "heading": "Enhanced Brand Storytelling",
+          "content": "With A+ content and storytelling elements, the store communicated the brand’s values and product benefits effectively."
+        },
+        {
+          "heading": "Improved Navigation for Higher Conversions",
+          "content": "Customers found it easier to explore and shop, leading to higher conversions and repeat purchases."
+        }
+      ],
+      "images": [
+        { "url": "Assets/case5-1.png", "caption": "Amazon Brand Store homepage" },
+        { "url": "Assets/case5-2.png", "caption": "Store navigation structure" }
+      ]
+    },
+    {
+      "id": 6,
+      "modal_title": "Inventory Planning & Management",
+      "sections": [
+        {
+          "heading": "Accurate Demand Forecasting",
+          "content": "Data-driven forecasting ensured the right amount of stock was available at the right time."
+        },
+        {
+          "heading": "Streamlined FBA & FBM Management",
+          "content": "Balanced use of FBA and FBM allowed flexibility, reducing risk of disruptions and excess storage costs."
+        },
+        {
+          "heading": "Prevention of Stockouts and Excess Fees",
+          "content": "Optimized planning minimized lost sales due to stockouts and avoided unnecessary storage charges."
+        },
+        {
+          "heading": "Optimized Cash Flow",
+          "content": "Balanced inventory levels helped maintain healthy cash flow, allowing reinvestment into growth areas."
+        }
+      ],
+      "images": [
+        { "url": "Assets/case6-1.png", "caption": "Inventory planning dashboard" }
+      ]
+    },
+    {
+      "id": 7,
+      "modal_title": "Amazon Payouts & Profit Tracking",
+      "sections": [
+        {
+          "heading": "Detailed Profit & Loss Tracking",
+          "content": "Clear breakdowns of revenue, expenses, and profit helped guide better decision-making."
+        },
+        {
+          "heading": "Monitoring Payouts and Cash Flow Cycles",
+          "content": "Regular tracking of Amazon payouts ensured healthy cash flow management."
+        },
+        {
+          "heading": "Expense Breakdown",
+          "content": "Detailed insights into PPC costs, storage fees, and COGS highlighted areas for optimization."
+        },
+        {
+          "heading": "Accurate Margin Calculations",
+          "content": "Accurate tracking of margins ensured sustainable profitability across campaigns and products."
+        }
+      ],
+      "images": [
+        { "url": "Assets/case7-1.png", "caption": "Profit tracking dashboard" },
+        { "url": "Assets/case7-2.png", "caption": "Amazon payouts report" }
+      ]
+    },
+    {
+      "id": 8,
+      "modal_title": "Trademark & Amazon Brand Registry",
+      "sections": [
+        {
+          "heading": "Assist with Trademark Filing",
+          "content": "Guidance and support ensured trademarks were filed smoothly, protecting the brand’s identity."
+        },
+        {
+          "heading": "Set Up and Manage Brand Registry",
+          "content": "We helped the client unlock the benefits of Amazon Brand Registry, from enhanced content to reporting tools."
+        },
+        {
+          "heading": "Protection Against Hijackers",
+          "content": "Brand Registry enabled protection against counterfeiters and unauthorized sellers."
+        },
+        {
+          "heading": "Access to Premium Tools",
+          "content": "The brand gained access to A+ Content, Sponsored Brands Ads, and Brand Analytics for more powerful marketing."
+        }
+      ],
+      "images": [
+        { "url": "Assets/case8-1.png", "caption": "Brand Registry dashboard" }
+      ]
+    },
+    {
+      "id": 9,
+      "modal_title": "Amazon Vine Program",
+      "sections": [
+        {
+          "heading": "Enroll Eligible Products",
+          "content": "The Vine program was used to build trust for new products by securing early reviews from verified reviewers."
+        },
+        {
+          "heading": "Manage Review Flow",
+          "content": "We monitored incoming reviews and ensured feedback loops were established for product improvement."
+        },
+        {
+          "heading": "Optimize Listings with Vine Reviews",
+          "content": "Highlighted Vine reviews were used strategically to improve listing credibility and boost conversions."
+        },
+        {
+          "heading": "Refine Future Launches",
+          "content": "Insights from reviewers informed future product design and launch strategies, improving long-term success."
+        }
+      ],
+      "images": [
+        { "url": "Assets/case9-1.png", "caption": "Amazon Vine enrollment page" },
+        { "url": "Assets/case9-2.png", "caption": "Vine reviews section on product page" }
+      ]
+    }
+  ]
+}
