@@ -1,9 +1,12 @@
 // src/components/Header.jsx
 import { useState, useEffect, useRef } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import { servicesCards } from "../data/servicesData";
 import ServiceDetails from "./Services/ServiceDetails";
 
 export default function Header() {
+  const navigate = useNavigate();
+  const location = useLocation();
   const [open, setOpen] = useState(false);
   const toggle = () => setOpen(v => !v);
 
@@ -14,6 +17,9 @@ export default function Header() {
   const [showCompanyMenu, setShowCompanyMenu] = useState(false);
   const [showMediaMenu, setShowMediaMenu] = useState(false);
   const [showCareersMenu, setShowCareersMenu] = useState(false);
+
+  const [activeNav, setActiveNav] = useState(null);
+  const [hoveredNav, setHoveredNav] = useState(null);
 
   const servicesTimerRef = useRef(null);
   const companyTimerRef = useRef(null);
@@ -42,6 +48,16 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
+    if (location.pathname === '/services') {
+      setActiveNav('services');
+    } else if (location.pathname === '/') {
+      setActiveNav('home');
+    } else {
+      setActiveNav(null);
+    }
+  }, [location.pathname]);
+
+  useEffect(() => {
     if (!open) return;
     const closeOnLink = (e) => {
       const target = e.target;
@@ -56,7 +72,7 @@ export default function Header() {
       <div className="container">
         <nav role="navigation" aria-label="Main navigation" className={open ? "open" : ""}>
           <div className="logo">
-            <a href="#hero" aria-label="BYTE BUILD TECH - Home">
+            <a href="/" aria-label="BYTE BUILD TECH - Home">
               <div className="logo-icon">
                 <img id="logo-img" src="/Assets/logo.jpg" alt="BYTE BUILD TECH Logo" width="40" height="40" />
               </div>
@@ -75,27 +91,36 @@ export default function Header() {
           </button>
 
           <div id="nav-links" className={`nav-links ${open ? "open" : ""}`} role="menubar">
-            <div 
-              className="services-menu-trigger" 
+
+            <div
+              className={`services-menu-trigger ${(hoveredNav === 'services' || activeNav === 'services' || showMenu) ? 'active' : ''}`}
               onMouseEnter={() => {
+                setHoveredNav('services');
                 if (servicesCloseTimerRef.current) clearTimeout(servicesCloseTimerRef.current);
                 servicesTimerRef.current = setTimeout(() => setShowMenu(true), 200);
               }}
               onMouseLeave={() => {
+                setHoveredNav(null);
                 if (servicesTimerRef.current) clearTimeout(servicesTimerRef.current);
                 servicesCloseTimerRef.current = setTimeout(() => setShowMenu(false), 250);
+              }}
+              onClick={() => {
+                setActiveNav('services');
+                navigate('/services');
               }}
               role="menuitem"
             >
               Services
             </div>
-            <div 
-              className="company-menu-trigger" 
+            <div
+              className={`company-menu-trigger ${(hoveredNav === 'company' || activeNav === 'company' || showCompanyMenu) ? 'active' : ''}`}
               onMouseEnter={() => {
+                setHoveredNav('company');
                 if (companyCloseTimerRef.current) clearTimeout(companyCloseTimerRef.current);
                 companyTimerRef.current = setTimeout(() => setShowCompanyMenu(true), 200);
               }}
               onMouseLeave={() => {
+                setHoveredNav(null);
                 if (companyTimerRef.current) clearTimeout(companyTimerRef.current);
                 companyCloseTimerRef.current = setTimeout(() => setShowCompanyMenu(false), 250);
               }}
@@ -103,13 +128,15 @@ export default function Header() {
             >
               Company
             </div>
-            <div 
-              className="media-menu-trigger" 
+            <div
+              className={`media-menu-trigger ${(hoveredNav === 'media' || activeNav === 'media' || showMediaMenu) ? 'active' : ''}`}
               onMouseEnter={() => {
+                setHoveredNav('media');
                 if (mediaCloseTimerRef.current) clearTimeout(mediaCloseTimerRef.current);
                 mediaTimerRef.current = setTimeout(() => setShowMediaMenu(true), 200);
               }}
               onMouseLeave={() => {
+                setHoveredNav(null);
                 if (mediaTimerRef.current) clearTimeout(mediaTimerRef.current);
                 mediaCloseTimerRef.current = setTimeout(() => setShowMediaMenu(false), 250);
               }}
@@ -117,13 +144,15 @@ export default function Header() {
             >
               Media
             </div>
-            <div 
-              className="careers-menu-trigger" 
+            <div
+              className={`careers-menu-trigger ${(hoveredNav === 'careers' || activeNav === 'careers' || showCareersMenu) ? 'active' : ''}`}
               onMouseEnter={() => {
+                setHoveredNav('careers');
                 if (careersCloseTimerRef.current) clearTimeout(careersCloseTimerRef.current);
                 careersTimerRef.current = setTimeout(() => setShowCareersMenu(true), 200);
               }}
               onMouseLeave={() => {
+                setHoveredNav(null);
                 if (careersTimerRef.current) clearTimeout(careersTimerRef.current);
                 careersCloseTimerRef.current = setTimeout(() => setShowCareersMenu(false), 250);
               }}
@@ -131,7 +160,15 @@ export default function Header() {
             >
               Careers
             </div>
-            <a href="#cta-banner" role="menuitem">Contact</a>
+            <a
+              href="#cta-banner"
+              className={`contact-link ${(hoveredNav === 'contact' || activeNav === 'contact') ? 'active' : ''}`}
+              onMouseEnter={() => setHoveredNav('contact')}
+              onMouseLeave={() => setHoveredNav(null)}
+              role="menuitem"
+            >
+              Contact
+            </a>
           </div>
         </nav>
 
@@ -145,12 +182,15 @@ export default function Header() {
               <div className="mega-menu-left">
                 <ul className="services-list">
                   {servicesCards.map((card) => (
-                    <li 
-                      key={card.key} 
-                      className={`service-item ${activeService?.id === card.key ? 'active' : ''}`}
-                      onMouseEnter={() => {
+                    <li
+                      key={card.key}
+                      className={`service-item ${activeService?.id === card.key ? "active" : ""
+                        }`}
+                      onClick={() => {
                         const svc = servicesMap[card.key];
-                        if (svc) setActiveService({ id: card.key, ...svc });
+                        if (svc) {
+                          setActiveService({ id: card.key, ...svc });
+                        }
                       }}
                     >
                       <img src={card.icon} alt={`${card.title} icon`} width="24" height="24" />

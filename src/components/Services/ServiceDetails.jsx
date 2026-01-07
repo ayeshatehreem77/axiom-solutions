@@ -41,6 +41,20 @@ export default function ServiceDetails({ service }) {
         </div>
       )}
 
+      {service.projects && (
+        <div id="service-projects">
+          <h4 className="projects-title">Projects</h4>
+          <div className="projects-grid">
+            {service.projects.map((p, i) => (
+              <div className="project-card" key={i}>
+                <img src={p.image} alt={p.alt || p.title || 'Project image'} className="project-image" />
+                {p.title && <span className="project-title">{p.title}</span>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {service.tools && (
         <div id="service-tools">
           <h4 className="tools-title">{service.tools_title}</h4>

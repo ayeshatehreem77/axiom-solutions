@@ -74,46 +74,54 @@
   },
 
   "game-development": {
-    "title": "Game & App Development",
-    "subtitle": "High-performance interactive systems",
-    "description": "Turn your concept into a playable, scalable, and optimized digital experience.",
-    "sub_services": "Core Capabilities",
-    "services": [
-      {
-        "category": "Gameplay & Systems",
-        "items": [
-          "Character controllers and combat systems",
-          "Inventory systems, skill trees, quests, and dialogues",
-          "AI behavior, pathfinding, FSM, and boss logic"
-        ]
-      },
-      {
-        "category": "UI / UX",
-        "items": [
-          "Menus, HUDs, settings, and interactive widgets",
-          "Custom or integrated UI assets"
-        ]
-      },
-      {
-        "category": "Multiplayer & Optimization",
-        "items": [
-          "Server-client synchronization",
-          "Lobby systems and matchmaking",
-          "Performance optimization and bug fixing"
-        ]
-      }
-    ],
-    "why_us": [
-      "Clean, maintainable game architecture",
-      "Performance-first development",
-      "Industry-standard practices"
-    ],
-    "cta": {
-      "title": "Develop interactive experiences",
-      "description": "From games to scalable apps, we build systems that perform.",
-      "note": "Best for startups and interactive platforms."
+  "title": "Game Development",
+  "subtitle": "High-performance interactive systems",
+  "description": "Turn your game concept into a playable reality with high-performance, scalable, and clean code.",
+  "sub_services": "Core Capabilities",
+  "services": [
+    {
+      "category": "Core Gameplay & Mechanics",
+      "items": [
+        "Smooth character controllers, combat systems, and custom physics interactions",
+        "Inventory systems, skill trees, dialogue managers, and quest logic",
+        "AI behavior including enemy pathfinding, FSM, and boss fight logic"
+      ]
+    },
+    {
+      "category": "UI / UX",
+      "items": [
+        "Main menus, pause screens, and settings configuration",
+        "HUD implementation such as health bars, mini-maps, and interactive widgets",
+        "Custom-designed or integrated UI assets"
+      ]
+    },
+    {
+      "category": "Multiplayer & Optimization",
+      "items": [
+        "Server-client replication and synchronization",
+        "Lobby systems, matchmaking, and networking setup",
+        "Lag compensation, FPS optimization, bug fixing, and memory profiling"
+      ]
     }
-  },
+  ],
+  "projects": [
+    {
+      "title": "Multiplayer Action Game",
+      "image": "/Assets/projects/game-multiplayer.jpeg",
+      "alt": "Multiplayer action game with combat mechanics"
+    }
+  ],
+  "why_us": [
+    "Clean, industry-standard and maintainable codebase",
+    "Performance-focused development and optimization",
+    "Strong debugging, refactoring, and system design expertise"
+  ],
+  "cta": {
+    "title": "Build high-performance games & apps",
+    "description": "From core mechanics to multiplayer systems, we deliver polished and scalable interactive experiences.",
+    "note": "Ideal for startups, studios, and interactive platforms."
+  }
+},
 
   "cad-design": {
     "title": "CAD Design",
